@@ -1,0 +1,7 @@
+<!--<p *ngIf="product."--> 
+<a href="{{product.image1}}" data-lightbox="all"><img *ngIf="product.image1" src="{{product.image1}}" alt="Product Photo" width="300"></a>
+<a href="{{product.image2}}" data-lightbox="all"><img *ngIf="product.image2" src="{{product.image2}}" alt="Product Photo" width="300"></a>
+<a href="{{product.image3}}" data-lightbox="all"><img *ngIf="product.image3" src="{{product.image3}}" alt="Product Photo" width="300"></a>
+<p *ngIf="product.rating">
+    Rating: {{product.rating}}
+</p>
